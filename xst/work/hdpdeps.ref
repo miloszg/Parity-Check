@@ -1,0 +1,7 @@
+V3 3
+FL E:/cw3/parzystosc/bramka.vhd 2018/03/09.11:03:44 K.39
+EN work/parzystosc 1520592718 FL E:/cw3/parzystosc/bramka.vhd \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      PB ieee/STD_LOGIC_UNSIGNED 1217055547
+AR work/parzystosc/beh 1520592719 \
+      FL E:/cw3/parzystosc/bramka.vhd EN work/parzystosc 1520592718
