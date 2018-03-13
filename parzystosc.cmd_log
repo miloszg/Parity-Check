@@ -1,0 +1,1 @@
+xst -ise "E:/cw3/parzystosc/parzystosc.ise" -intstyle ise -ifn "E:/cw3/parzystosc/parzystosc.xst" -ofn "E:/cw3/parzystosc/parzystosc.syr"

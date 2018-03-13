@@ -1,0 +1,28 @@
+# Seven-segment LED display:
+NET "led7_an<3>" LOC = "E13" ; # leftmost digit, active low
+NET "led7_an<2>" LOC = "F14" ; # active low
+NET "led7_an<1>" LOC = "G14" ; # active low
+NET "led7_an<0>" LOC = "d14" ; # rightmost digit, active low
+#
+NET "led7_seg<7>" LOC = "E14" ; # segment 'A', active low
+NET "led7_seg<6>" LOC = "G13" ; # segment 'B', active low
+NET "led7_seg<5>" LOC = "N15" ; # segment 'C', active low
+NET "led7_seg<4>" LOC = "P15" ; # segment 'D', active low
+NET "led7_seg<3>" LOC = "R16" ; # segment 'E', active low
+NET "led7_seg<2>" LOC = "F13" ; # segment 'F', active low
+NET "led7_seg<1>" LOC = "N16" ; # segment 'G', active low
+NET "led7_seg<0>" LOC = "P16" ; # segment 'dp', active low
+#########################################################################################
+
+#########################################################################################
+# Slide switches:
+# we0 we1 we2 we3 we4 we5 we6 we7
+NET "we0" LOC = "F12" ; # active high when in UP position
+NET "we1" LOC = "G12" ; # active high when in UP position
+NET "we2" LOC = "H14" ; # active high when in UP position
+NET "we3" LOC = "H13" ; # active high when in UP position
+NET "we4" LOC = "J14" ; # active high when in UP position
+NET "we5" LOC = "J13" ; # active high when in UP position
+NET "we6" LOC = "K14" ; # active high when in UP position
+NET "we7" LOC = "K13" ; # active high when in UP position
+#########################################################################################

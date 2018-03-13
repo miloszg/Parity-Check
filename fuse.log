@@ -1,0 +1,32 @@
+Running : C:\Xilinx\10.1\ISE\bin\nt\unwrapped\fuse.exe -ise
+E:/cw3/parzystosc/parzystosc.ise -intstyle ise -incremental -o UUT2_isim_beh.exe
+-prj UUT2_beh.prj -top UUT2
+Determining compilation order of HDL files
+Analyzing VHDL file bramka.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+Analyzing VHDL file UUT2.vhd
+Restoring VHDL parse-tree ieee.numeric_std from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/numeric_std.vdb
+Saving VHDL parse-tree work.parzystosc into
+e:/cw3/parzystosc/isim/work/parzystosc.vdb
+Saving VHDL parse-tree work.uut2 into e:/cw3/parzystosc/isim/work/uut2.vdb
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 56284 Kb
+Fuse CPU Usage: 327 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling architecture beh of entity parzystosc [parzystosc_default]
+Compiling architecture behavior of entity uut2
+ERROR:Simulator - Failed to link the design. Check to see if any previous
+   simulation executables are still running.

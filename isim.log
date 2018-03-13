@@ -1,0 +1,44 @@
+Command line:
+   ./parzystosc_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1354
+
+Fri Mar 09 11:46:56 2018
+
+Total Line Count : 5
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 247.226 Meg
+
+ Total Signals          : 11
+ Total Nets             : 21
+ Total Signal Drivers   : 3
+ Total Blocks           : 4
+ Total Primitive Blocks : 1
+ Total Processes        : 2
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 399
+ntrace select -o on -n /parzystosc/we0 
+ntrace select -o on -n /parzystosc/we1 
+ntrace select -o on -n /parzystosc/we2 
+ntrace select -o on -n /parzystosc/we3 
+ntrace select -o on -n /parzystosc/we4 
+ntrace select -o on -n /parzystosc/we5 
+ntrace select -o on -n /parzystosc/we6 
+ntrace select -o on -n /parzystosc/we7 
+ntrace select -o on -n /parzystosc/led7_seg 
+ntrace select -o on -n /parzystosc/led7_an 
+ntrace select -o on -n /parzystosc/y 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 257.778 Meg
+
+Fri Mar 09 11:47:51 2018
+
